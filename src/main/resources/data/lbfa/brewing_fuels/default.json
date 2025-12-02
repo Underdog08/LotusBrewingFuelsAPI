@@ -1,0 +1,16 @@
+{
+  "brewing_fuels": [
+    {
+      "item": "minecraft:blaze_powder",
+      "fuel": 20
+    },
+    {
+      "item": "minecraft:coal",
+      "fuel": 5
+    },
+    {
+      "item": "minecraft:charcoal",
+      "fuel": 4
+    }
+  ]
+}

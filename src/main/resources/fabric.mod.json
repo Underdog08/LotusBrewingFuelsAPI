@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "lbfa",
+	"version": "${version}",
+	"name": "Lotus Brewing Fuels API",
+	"description": "Allows the customization of brewing stand fuels in mods developed by the Lotus team.",
+	"authors": [
+		"Under"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lbfa/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lbfa.LotusBrewingFuelsAPI"
+		],
+		"fabric-datagen": [
+			"com.lbfa.LotusBrewingFuelsAPIDataGenerator"
+		]
+	},
+	"mixins": [
+		"lbfa.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
