@@ -4,7 +4,8 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"BrewingStandBlockEntityMixin"
+		"BrewingStandBlockEntityMixin",
+		"FuelSlotMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
